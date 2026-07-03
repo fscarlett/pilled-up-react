@@ -1,0 +1,39 @@
+.site_header {
+  height: 58px;
+  background-color: #0052cc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.logo {
+  text-decoration: none;
+  padding: 16px 16px;
+  color: #fff;
+}
+
+.logo:hover {
+  background-color: #555;
+  /* color: #fff; */
+  text-decoration: underline;
+}
+
+.active_link {
+  padding: 16px 16px;
+  background-color: #aff;
+  color: #333;
+}
+
+.default_link {
+  text-decoration: none;
+  padding: 16px 16px;
+  color: #fff;
+}
+
+.default_link:hover {
+  background-color: #555;
+  color: #fff;
+  text-decoration: underline;
+}
