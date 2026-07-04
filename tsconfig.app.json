@@ -9,7 +9,6 @@
     "skipLibCheck": true,
 
     /* tailwindcss */
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
