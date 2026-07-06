@@ -1,8 +1,10 @@
 function PillsPage() {
   return (
     <>
-      <div>PillsPage</div>
-      <div>here are all the pills</div>
+      <div>
+        <h1 className=''>PillsPage</h1>
+        <div>here are all the pills</div>
+      </div>
     </>
   )
 }

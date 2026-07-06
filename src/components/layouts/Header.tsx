@@ -37,7 +37,7 @@ function Header() {
                   <NavigationMenuLink
                     render={<Link to={item.to} />}
                     active={isActive}
-                    className='rounded-md px-4 py-2 text-white no-underline hover:bg-white/12 hover:text-white focus:bg-white/12 focus:text-white data-[active=true]:bg-white data-[active=true]:text-[#0052cc] data-[active=true]:hover:bg-white data-[active=true]:focus:bg-white'
+                    className='rounded-md px-4 py-2 text-base text-white no-underline hover:bg-white/12 hover:text-white focus:bg-white/12 focus:text-white data-[active=true]:bg-white data-[active=true]:text-[#0052cc] data-[active=true]:hover:bg-white data-[active=true]:focus:bg-white'
                   >
                     {item.label}
                   </NavigationMenuLink>

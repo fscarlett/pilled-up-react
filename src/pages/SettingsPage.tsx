@@ -1,7 +1,7 @@
 function SettingsPage() {
   return (
     <>
-      <div>SettingsPage</div>
+      <h1 className=''>SettingsPage</h1>
       <div>here are some settings</div>
     </>
   )
